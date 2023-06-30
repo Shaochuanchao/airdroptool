@@ -29,7 +29,7 @@ install_extension() {
     echo "安装插件："
     echo "  用户目录：$user_data_dir"
     echo "  插件路径：$extension_crx"
-    "${chrome_path}" --user-data-dir="$user_data_dir" --install-extension "$extension_crx"
+    "${chrome_path}" --user-data-dir="$user_data_dir" --load-extension "$extension_crx"
   done
 }
 

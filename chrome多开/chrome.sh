@@ -32,3 +32,5 @@ fi
 # 打开Chrome浏览器并指定目录
 echo "正在打开Chrome浏览器，用户数据目录为 $dir"
 open -na "Google Chrome" --args --user-data-dir="$dir"
+
+--load-extension=$target_extensions_dir"
